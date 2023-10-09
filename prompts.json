@@ -1,9 +1,16 @@
 {
     "prompts" : [
         {
-            "title" : "On February 21, 1804, British mining engineer, inventor and explorer  Richard Trevithick debuted the first full-scale working railway steam locomotive in the Welsh mining town of Merthyr Tydfil. Following that debut, locomotives have been powered by a myriad of fuels, including wood, coal and oil.", 
-            "answer" : "Merthyr Tydfil, UK"
+            "text" : "<p> On February 21, 1804, British mining engineer, inventor and explorer Richard Trevithick debuted the first full-scale working railway steam locomotive in the Welsh mining town of Merthyr Tydfil. Following that debut, locomotives have been powered by a myriad of fuels, including wood, coal and oil.</p>", 
+            "answer" : "Merthyr Tydfil"
+        },
+        {
+            "text" : "<p>Testing this</p>", 
+            "answer" : "New York City"
+        },
+        {
+            "text" : "<p>Testing this 2</p>", 
+            "answer" : "New York asd"
         }
-        
     ]
 }

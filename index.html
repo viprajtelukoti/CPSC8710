@@ -15,23 +15,40 @@
         flex-wrap: wrap-reverse;
         /* padding: 10px; */
     }
+
+    .title {
+        /* border: 5px solid; */
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        flex-wrap: wrap-reverse;
+        /* padding: 10px; */
+    }
 </style>
 
 <body>
 
-    <div class="center">
+    <div class="title">
         <h1>
-            Title        
+            Historle
         </h1>
+    </div>
 
-        <p>On February 21, 1804, British mining engineer, inventor and explorer 
-            Richard Trevithick debuted the first full-scale working railway steam locomotive in the Welsh mining town of Merthyr Tydfil. 
-            Following that debut, locomotives have been powered by a myriad of fuels, including wood, coal and oil.</p>
+    <div class="center">
+        
+
+        <div id="questionPrompt">
+        </div>
+
+
+
+        
         <label for="fname">Answer:</label><br>
         <input type="text" id="answer" name="answer" list="citynamedata">
             <datalist id="citynamedata">
             </datalist>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" onclick="submitClick()">
             
     </div>
 
