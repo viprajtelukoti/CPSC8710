@@ -9,7 +9,7 @@ var currentQuestion;
 var score = 0;
 
 function getRandomInt(max) {
-return Math.floor(Math.random() * max);
+    return Math.floor(Math.random() * max);
 }
 
 function addCity(cityName){
