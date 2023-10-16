@@ -5,12 +5,29 @@
             "answer" : "Merthyr Tudful"
         },
         {
-            "text" : "<p>Testing this</p>", 
-            "answer" : "Philadelphia"
+            "text" : "<p>Where was the first skyscraper built in the world?</p>", 
+            "answer" : "Chicago"
         },
         {
-            "text" : "<p>Testing this 2</p>", 
-            "answer" : "New York"
+            "text" : "<p>In what city was the first Starbucks coffee shop built?</p>", 
+            "answer" : "Seattle"
+        },
+        {
+            "text" : "<p>Where was the first car was made?</p>", 
+            "answer" : "Springfield"
+        },
+        {
+            "text" : "<p>What city this is in?</p><img style=\"display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/1280px-All_Gizah_Pyramids.jpg\" width=\"1053\" height=\"700\">", 
+            "answer" : "Cairo"
+        },
+        {
+            "text" : "<p>What city this is in?</p><img style=\"display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;\" src=\"https://media.nomadicmatt.com/historical-colloseum.jpg\" width=\"395\" height=\"231\">", 
+            "answer" : "Rome"
+        },
+        {
+            "text" : "<p>What city this is in?</p><img style=\"display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;\" src=\"https://media.nomadicmatt.com/historical-tajmahal.jpg\"  width=\"395\" height=\"231\">", 
+            "answer" : "Agra"
         }
+
     ]
 }
