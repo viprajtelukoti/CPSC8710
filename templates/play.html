@@ -4,8 +4,12 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='play-styles.css') }}">
 </head>
 <body>
+    <img src="{{ url_for('static', filename='title.png') }}" alt="Title image" class="title">
+    <div class="resetButton">
+        <a href="{{ url_for('play') }}">Reset game</a>
+    </div>
     <div class="container">
-        <h1>Trivia Game</h1>
+        <h1>Score: {{session['score']}}</h1>
         <p class="question">Question {{ session['current_question'] + 1 }}: {{ question['question'] }}</p>
         <form method="post">
             <ul class="options">

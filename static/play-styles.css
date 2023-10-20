@@ -31,6 +31,19 @@ h1 {
     margin-bottom: 10px;
 }
 
+.resetButton {
+    position: fixed;
+    top: 0%;
+    left: 0%; 
+    padding: 20px;
+}
+
+.title {
+    position: fixed;
+    width: 25%;
+    top: 0%;
+}
+
 ul.options {
     list-style-type: none;
     padding: 0;
