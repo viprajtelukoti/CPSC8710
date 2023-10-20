@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Earth", "Mars", "Jupiter", "Venus"],
+        "answer": "Jupiter"
+    },
+    {
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+        "answer": "Carbon Dioxide"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Go", "GoL", "Au", "Ag"],
+        "answer": "Au"
+    },
+    {
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+        "answer": "William Shakespeare"
+    },
+    {
+        "question": "In which year did the Titanic sink?",
+        "options": ["1912", "1923", "1907", "1931"],
+        "answer": "1912"
+    },
+    {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": ["South Korea", "China", "Japan", "Vietnam"],
+        "answer": "Japan"
+    },
+    {
+        "question": "What is the largest organ in the human body?",
+        "options": ["Brain", "Liver", "Skin", "Heart"],
+        "answer": "Skin"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "options": ["Mount Kilimanjaro", "Mount Everest", "Mount McKinley", "Mount Fuji"],
+        "answer": "Mount Everest"
+    },
+    {
+        "question": "How many bones are there in the adult human body?",
+        "options": ["206", "212", "198", "220"],
+        "answer": "206"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh", "Rembrandt"],
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+        "answer": "Canberra"
+    },
+    {
+        "question": "Which gas makes up the majority of the Earth's atmosphere?",
+        "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+        "answer": "Nitrogen"
+    },
+    {
+        "question": "What is the currency of Japan?",
+        "options": ["Yen", "Dollar", "Euro", "Peso"],
+        "answer": "Yen"
+    },
+    {
+        "question": "Which planet is known as the 'Morning Star' and 'Evening Star'?",
+        "options": ["Mars", "Venus", "Saturn", "Jupiter"],
+        "answer": "Venus"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "options": ["H2O", "CO2", "O2", "H2SO4"],
+        "answer": "H2O"
+    },
+    {
+        "question": "Who is the author of the Harry Potter series?",
+        "options": ["J.R.R. Tolkien", "George Orwell", "J.K. Rowling", "C.S. Lewis"],
+        "answer": "J.K. Rowling"
+    },
+    {
+        "question": "What is the longest river in the world?",
+        "options": ["Amazon River", "Nile River", "Mississippi River", "Yangtze River"],
+        "answer": "Nile River"
+    },
+    {
+        "question": "Which country is known as the 'Land of Fire and Ice'?",
+        "options": ["Italy", "Iceland", "Greece", "Canada"],
+        "answer": "Iceland"
+    },
+    {
+        "question": "What is the chemical symbol for iron?",
+        "options": ["Fe", "Ir", "In", "Au"],
+        "answer": "Fe"
+    },
+    {
+        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "options": ["Amelia Earhart", "Bessie Coleman", "Harriet Quimby", "Jacqueline Cochran"],
+        "answer": "Amelia Earhart"
+    }
+]

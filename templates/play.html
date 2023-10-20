@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='play-styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Trivia Game</h1>
+        <p class="question">Question {{ session['current_question'] + 1 }}: {{ question['question'] }}</p>
+        <form method="post">
+            <ul class="options">
+                {% for option in question['options'] %}
+                    <li>
+                        <input type="radio" id="option{{ loop.index }}" name="answer" value="{{ option }}">
+                        <label for="option{{ loop.index }}">{{ option }}</label>
+                    </li>
+                {% endfor %}
+            </ul>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
