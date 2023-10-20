@@ -1,38 +1,38 @@
 [
     {
-        "question": "What is the largest planet in our solar system?",
-        "options": ["Earth", "Mars", "Jupiter", "Venus"],
-        "answer": "Jupiter"
+        "question": "Which city was the capital of the Byzantine Empire and later the Ottoman Empire?",
+        "options": ["Constantinople", "Athens", "Rome", "Jerusalem"],
+        "answer": "Constantinople"
     },
     {
-        "question": "Which gas do plants absorb from the atmosphere?",
-        "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
-        "answer": "Carbon Dioxide"
+        "question": "Where did the first shots of the American Civil War occur in the USA?",
+        "options": ["Charleston, South Carolina", "Gettysburg, Pennsylvania", "Antietam, Maryland", "Manassas, Virginia"],
+        "answer": "Charleston, South Carolina"
     },
     {
-        "question": "What is the chemical symbol for gold?",
-        "options": ["Go", "GoL", "Au", "Ag"],
-        "answer": "Au"
+        "question": "Which city in the USA was the site of the famous Boston Tea Party?",
+        "options": ["New York City", "Boston", "Philadelphia", "Washington, D.C."],
+        "answer": "Boston"
     },
     {
-        "question": "Who wrote the play 'Romeo and Juliet'?",
-        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
-        "answer": "William Shakespeare"
+        "question": "In which city was the Declaration of Independence signed in 1776?",
+        "options": ["Philadelphia", "Boston", "New York City", "Charleston"],
+        "answer": "Boston"
     },
     {
-        "question": "In which year did the Titanic sink?",
-        "options": ["1912", "1923", "1907", "1931"],
-        "answer": "1912"
+        "question": "Which city is known for the historic event of the Alamo during the Texan Revolution?",
+        "options": ["San Francisco", "Austin", "San Antonio", "Houston"],
+        "answer": "San Antonio"
     },
     {
-        "question": "Which country is known as the Land of the Rising Sun?",
-        "options": ["South Korea", "China", "Japan", "Vietnam"],
-        "answer": "Japan"
+        "question": "Which city in the USA was the site of the famous Wall Street Crash of 1929?",
+        "options": ["New York City", "Chicago", "Los Angeles", "Detroit"],
+        "answer": "New York City"
     },
     {
-        "question": "What is the largest organ in the human body?",
-        "options": ["Brain", "Liver", "Skin", "Heart"],
-        "answer": "Skin"
+        "question": "Which city is known for the historic event of the Gold Rush in the mid-1800s?",
+        "options": ["San Francisco", "Seattle", "Denver", "Salt Lake City"],
+        "answer": "San Francisco"
     },
     {
         "question": "What is the tallest mountain in the world?",
