@@ -17,7 +17,7 @@
     {
         "question": "In which city was the Declaration of Independence signed in 1776?",
         "options": ["Philadelphia", "Boston", "New York City", "Charleston"],
-        "answer": "Boston"
+        "answer": "Philadelphia"
     },
     {
         "question": "Which city is known for the historic event of the Alamo during the Texan Revolution?",
@@ -35,19 +35,19 @@
         "answer": "San Francisco"
     },
     {
-        "question": "What is the tallest mountain in the world?",
-        "options": ["Mount Kilimanjaro", "Mount Everest", "Mount McKinley", "Mount Fuji"],
-        "answer": "Mount Everest"
+        "question": "Which city served as the political and cultural center of the ancient Roman Empire and is home to iconic structures like the Colosseum and the Roman Forum?",
+        "options": ["Athens", "Paris", "Rome", "Istanbul"],
+        "answer": "Rome"
     },
     {
-        "question": "How many bones are there in the adult human body?",
-        "options": ["206", "212", "198", "220"],
-        "answer": "206"
+        "question": "Which city in India is famous for its historic love monument, the Taj Mahal, built in the 17th century by the Mughal Emperor Shah Jahan?",
+        "options": ["Delhi", "Agra", "Jaipur", "Mumbai"],
+        "answer": "Agra"
     },
     {
-        "question": "Who painted the Mona Lisa?",
-        "options": ["Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh", "Rembrandt"],
-        "answer": "Leonardo da Vinci"
+        "question": "Which city in Egypt is home to the Great Pyramids, one of the Seven Wonders of the Ancient World, built as a tomb for the Pharaoh Khufu?",
+        "options": ["Cairo", "Luxor", "Alexandria", "Giza"],
+        "answer": "Giza"
     },
     {
         "question": "What is the capital of Australia?",
