@@ -6,6 +6,12 @@ This project is a history-based trivia game built using Python and Flask. It all
 
 * **Variety of questions:** The trivia game includes a variety of questions from different historical eras and topics.
 * **Immediate feedback:** Players receive immediate feedback on their answers, so they can learn from their mistakes.
+  
+## Technologies Used
+
+- **Python:** The backend of the application is powered by Python.
+- **Flask:** Flask is used as the web framework to handle routing and requests.
+- **HTML/CSS:** The frontend is built using HTML and CSS for a user-friendly interface.
 
 ### Getting Started
 
