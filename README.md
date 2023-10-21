@@ -22,3 +22,10 @@ To get started with the trivia game, you will need to install the following depe
 
 Once you have installed the dependencies, you can clone the project repository and run the following command to start the development server:
 
+## Developers
+
+This project was developed by a team of passionate developers dedicated to creating an engaging history trivia experience. Meet the developers behind this project:
+
+- **Archana Saroj**
+- **Karim Saleem**
+- **Sai Vipraj Telukoti**
