@@ -25,13 +25,14 @@ def play():
         user_answer = request.form.get('answer')
         current_question = questions[session['current_question']]
 
-        if user_answer == current_question['answer']:
-            session['score'] += 1
+        if user_answer != None:
+            if user_answer == current_question['answer']:
+                session['score'] += 1
 
-        session['current_question'] += 1
+            session['current_question'] += 1
 
-        if session['current_question'] == 5:
-            return render_template('gameover.html', score=session['score'])
+            if session['current_question'] == 5:
+                return render_template('gameover.html', score=session['score'])
 
     current_question = questions[session['current_question']]
 
