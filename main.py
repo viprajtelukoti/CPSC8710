@@ -38,5 +38,5 @@ def play():
     return render_template('play.html', question=current_question)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=80, debug=True)
+    app.run(port=1500, debug=True)
 
