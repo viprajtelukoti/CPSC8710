@@ -55,7 +55,7 @@
         "answer": "Canberra"
     },
         {
-        "question": "Who wrote the play "Romeo and Juliet"?",
+        "question": "Who wrote the play Romeo and Juliet?",
         "options": ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"],
         "answer": "William Shakespeare"
     },
@@ -81,6 +81,7 @@
     },
 	{
 		"question": "Which American president was the first to be impeached?",
-		"options": "Andrew Johnson", "Richard Nixon", "Bill Clinton", "Donald Trump"],
+		"options": ["Andrew Johnson", "Richard Nixon", "Bill Clinton", "Donald Trump"],
 		"answer": "Andrew Johnson"
 	}
+]
