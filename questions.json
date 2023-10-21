@@ -54,49 +54,33 @@
         "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
         "answer": "Canberra"
     },
-    {
-        "question": "Which gas makes up the majority of the Earth's atmosphere?",
-        "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
-        "answer": "Nitrogen"
+        {
+        "question": "Who wrote the play "Romeo and Juliet"?",
+        "options": ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"],
+        "answer": "William Shakespeare"
     },
     {
-        "question": "What is the currency of Japan?",
-        "options": ["Yen", "Dollar", "Euro", "Peso"],
-        "answer": "Yen"
+        "question": "What was the primary purpose of the Great Wall of China?",
+        "options": ["To serve as a trade route", "To protect against invasions", "To symbolize unity", "To store food supplies"],
+        "answer": "To protect against invasions"
     },
     {
-        "question": "Which planet is known as the 'Morning Star' and 'Evening Star'?",
-        "options": ["Mars", "Venus", "Saturn", "Jupiter"],
-        "answer": "Venus"
+        "question": "Which event is considered to be the start of the Renaissance?",
+        "options": ["The Fall of Constantinople", "The invention of the printing press", "The Black Death", "The Hundred Years' War"],
+        "answer": "The Fall of Constantinople"
     },
     {
-        "question": "What is the chemical symbol for water?",
-        "options": ["H2O", "CO2", "O2", "H2SO4"],
-        "answer": "H2O"
+        "question": "What was the name of the American president who led the country through the Civil War?",
+        "options": ["Abraham Lincoln", "George Washington", "Theodore Roosevelt", "Franklin D. Roosevelt"],
+        "answer": "Abraham Lincoln"
     },
     {
-        "question": "Who is the author of the Harry Potter series?",
-        "options": ["J.R.R. Tolkien", "George Orwell", "J.K. Rowling", "C.S. Lewis"],
-        "answer": "J.K. Rowling"
+		"question": "Which European country was the first to establish a permanent colony in North America?",
+		"options": ["England", "France", "Spain", "Netherlands"],
+		"answer": "England"
     },
-    {
-        "question": "What is the longest river in the world?",
-        "options": ["Amazon River", "Nile River", "Mississippi River", "Yangtze River"],
-        "answer": "Nile River"
-    },
-    {
-        "question": "Which country is known as the 'Land of Fire and Ice'?",
-        "options": ["Italy", "Iceland", "Greece", "Canada"],
-        "answer": "Iceland"
-    },
-    {
-        "question": "What is the chemical symbol for iron?",
-        "options": ["Fe", "Ir", "In", "Au"],
-        "answer": "Fe"
-    },
-    {
-        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
-        "options": ["Amelia Earhart", "Bessie Coleman", "Harriet Quimby", "Jacqueline Cochran"],
-        "answer": "Amelia Earhart"
-    }
-]
+	{
+		"question": "Which American president was the first to be impeached?",
+		"options": "Andrew Johnson", "Richard Nixon", "Bill Clinton", "Donald Trump"],
+		"answer": "Andrew Johnson"
+	}
