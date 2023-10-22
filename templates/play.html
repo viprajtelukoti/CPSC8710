@@ -26,7 +26,7 @@
                 {% for option in question['options'] %}
                     <li>
                         {% if option == question['answer']%}
-                            <label for="option{{ loop.index }}" class="rightLabel"><input type="radio" id="option{{ loop.index }}" name="answer" value="{{ option }}">{{ option }} test</label>
+                            <label for="option{{ loop.index }}" class="rightLabel"><input type="radio" id="option{{ loop.index }}" name="answer" value="{{ option }}">{{ option }}</label>
                         {% else %}
                             <label for="option{{ loop.index }}"><input type="radio" id="option{{ loop.index }}" name="answer" value="{{ option }}">{{ option }}</label>
                         {% endif %}
