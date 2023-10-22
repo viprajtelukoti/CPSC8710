@@ -40,10 +40,11 @@ def play():
 
             session['current_question'] += 1
 
+            time.sleep(0.4)
+            
             if session['current_question'] == session['num_questions']:
                 return render_template('gameover.html', score=session['score'])
             
-            time.sleep(0.4)
 
     current_question = questions[session['current_question']]
 
