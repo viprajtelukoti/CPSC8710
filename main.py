@@ -14,6 +14,14 @@ with open('questions.json', 'r') as file:
 def index():
     return render_template('index.html')
 
+@app.route('/setNumQuestions', methods=['POST'])
+def numQuestion():
+    if request.form.get('questionNum') == '':
+        session['num_questions'] = 5
+    else:
+        session['num_questions'] = int(request.form.get('questionNum'))
+    return redirect(url_for('play'))
+
 @app.route('/play', methods=['GET', 'POST'])
 def play():
     if request.method == 'GET':
@@ -31,7 +39,7 @@ def play():
 
             session['current_question'] += 1
 
-            if session['current_question'] == 5:
+            if session['current_question'] == session['num_questions']:
                 return render_template('gameover.html', score=session['score'])
 
     current_question = questions[session['current_question']]
