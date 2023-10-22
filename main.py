@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, session, redirect, url_for, jsonify
 import random
 import json
+import time
 
 app = Flask(__name__)
 
@@ -43,6 +44,8 @@ def play():
                 return render_template('gameover.html', score=session['score'])
 
     current_question = questions[session['current_question']]
+
+    time.sleep(0.4)
 
     return render_template('play.html', question=current_question)
 

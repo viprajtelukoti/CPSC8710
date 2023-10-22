@@ -2,6 +2,16 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='play-styles.css') }}">
+    <script type=text/javascript>
+        function submitEvent(){
+            if(document.getElementById('option1').checked 
+            || document.getElementById('option2').checked
+            || document.getElementById('option3').checked
+            || document.getElementById('option4').checked ) {
+                document.getElementsByClassName("rightLabel")[0].style.backgroundColor = "green";
+            }
+        }
+    </script>
 </head>
 <body>
     <img src="{{ url_for('static', filename='title.png') }}" alt="Title image" class="title">
@@ -15,12 +25,15 @@
             <ul class="options">
                 {% for option in question['options'] %}
                     <li>
-                        
-                        <label for="option{{ loop.index }}"><input type="radio" id="option{{ loop.index }}" name="answer" value="{{ option }}">{{ option }}</label>
+                        {% if option == question['answer']%}
+                            <label for="option{{ loop.index }}" class="rightLabel"><input type="radio" id="option{{ loop.index }}" name="answer" value="{{ option }}">{{ option }} test</label>
+                        {% else %}
+                            <label for="option{{ loop.index }}"><input type="radio" id="option{{ loop.index }}" name="answer" value="{{ option }}">{{ option }}</label>
+                        {% endif %}
                     </li>
                 {% endfor %}
             </ul>
-            <input type="submit" value="Submit" class="btn-hover color-1">
+            <input type="submit" value="Submit" class="btn-hover color-1" onclick="submitEvent()">
         </form>
 
     </div>

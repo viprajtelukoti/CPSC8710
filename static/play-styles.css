@@ -32,29 +32,14 @@ h1 {
 .question {
     font-size: 18px;
     margin-bottom: 10px;
+    width:500px;
 }
 
 .resetButton {
     position: fixed;
     top: 10px;
     left: 10px;
-    background-color: #4caf50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  
-  .resetButton:hover {
-    background-color: white;
-    color: #4caf50;
-    border: 2px solid #4caf50;
-  }
+}
   
 .title {
     position: fixed;
@@ -70,45 +55,6 @@ ul.options {
 ul.options li {
     margin-bottom: 10px;
 }
-
-label {
-    display: block;
-    background-color: #f9f9f9;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* input[type="radio"] {
-    display: none;
-}
-
-input[type="radio"] + label {
-    position: relative;
-}
-
-input[type="radio"] + label::before {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #007BFF;
-    border-radius: 50%;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-} */
-/*
-input[type="radio"]:checked + label::before {
-    background-color: #007BFF;
-    border: none;
-    content: "✓"; // Display a checkmark 
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-} */
 
 * {
     -webkit-box-sizing: border-box;
@@ -192,23 +138,34 @@ a:hover {
     width:400px;
     margin:0 5px;
 }
+
 input[type="radio"]
 {
     display:none;
 }
-label{    
-width:225px;
-height:50px;
-text-align:center;
-margin:0;
-padding-top:12px;
+
+label {    
+    width:225px;
+    height:50px;
+    text-align:center;
+    margin:0;
+    padding-top:12px;
+    display: block;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
 label:hover{
-background-color: #ffd24c;
+    background-color: #ffd24c;
 }
-.question{
-    width:500px;
-}
+
 label:has(> input:checked){
     background-color: #ffd24c;
+}
+
+.rightLabel {
+    background-color: #f9f9f9;
 }
