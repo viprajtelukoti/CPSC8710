@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #e6c156;
+    background-color: #ffd24c;
 }
 .container {
     max-width: 800px;
@@ -36,6 +36,8 @@ h1 {
 
 .resetButton {
     position: fixed;
+    top: 10px;
+    left: 10px;
     top: 10px;
     left: 10px;
     background-color: #4caf50;
@@ -80,7 +82,7 @@ label {
     cursor: pointer;
 }
 
-input[type="radio"] {
+/* input[type="radio"] {
     display: none;
 }
 
@@ -98,16 +100,27 @@ input[type="radio"] + label::before {
     position: absolute;
     top: 5px;
     left: 5px;
-}
-
+} */
+/*
 input[type="radio"]:checked + label::before {
     background-color: #007BFF;
     border: none;
-    content: "✓"; /* Display a checkmark */
+    content: "✓"; // Display a checkmark 
     text-align: center;
     font-size: 16px;
     font-weight: bold;
     color: white;
+} */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
 }
 
 * {
@@ -141,18 +154,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-input[type="submit"]:focus {
-    outline: none;
-}
-
-.btn-hover.color-1 {
-    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    background-color: #0056b3;
 }
