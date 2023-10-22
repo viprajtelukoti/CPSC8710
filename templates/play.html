@@ -15,13 +15,14 @@
             <ul class="options">
                 {% for option in question['options'] %}
                     <li>
-                        <input type="radio" id="option{{ loop.index }}" name="answer" value="{{ option }}">
-                        <label for="option{{ loop.index }}">{{ option }}</label>
+                        
+                        <label for="option{{ loop.index }}"><input type="radio" id="option{{ loop.index }}" name="answer" value="{{ option }}">{{ option }}</label>
                     </li>
                 {% endfor %}
             </ul>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="btn-hover color-1">
         </form>
+
     </div>
 </body>
 </html>
