@@ -20,6 +20,7 @@ body {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    
 }
 
 
@@ -42,7 +43,7 @@ h1 {
 }
   
 .title {
-    position: fixed;
+   position:fixed;
     width: 25%;
     top: 0%;
 }
@@ -80,10 +81,10 @@ input[type="submit"] {
     background-size: 300% 100%;
 
     border-radius: 50px;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    -moz-transition: all 5s ease-in-out;
+    -o-transition: all 5s ease-in-out;
+    -webkit-transition: all 5s ease-in-out;
+    transition: all 5s ease-in-out;
 }
 
 input[type="submit"]:hover {
