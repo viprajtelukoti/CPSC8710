@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, session, redirect, url_for, jsonify
 import random
 import json
+import time
 
 app = Flask(__name__)
 
@@ -14,6 +15,14 @@ with open('questions.json', 'r') as file:
 def index():
     return render_template('index.html')
 
+@app.route('/setNumQuestions', methods=['POST'])
+def numQuestion():
+    if request.form.get('questionNum') == '':
+        session['num_questions'] = 5
+    else:
+        session['num_questions'] = int(request.form.get('questionNum'))
+    return redirect(url_for('play'))
+
 @app.route('/play', methods=['GET', 'POST'])
 def play():
     if request.method == 'GET':
@@ -25,13 +34,17 @@ def play():
         user_answer = request.form.get('answer')
         current_question = questions[session['current_question']]
 
-        if user_answer == current_question['answer']:
-            session['score'] += 1
+        if user_answer != None:
+            if user_answer == current_question['answer']:
+                session['score'] += 1
 
-        session['current_question'] += 1
+            session['current_question'] += 1
 
-        if session['current_question'] == 5:
-            return render_template('gameover.html', score=session['score'])
+            time.sleep(1.5)
+            
+            if session['current_question'] == session['num_questions']:
+                return render_template('gameover.html', score=session['score'])
+            
 
     current_question = questions[session['current_question']]
 

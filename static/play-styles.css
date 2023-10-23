@@ -1,7 +1,9 @@
 /* play-styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Tinos', serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -9,16 +11,20 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-}
+    background-color: #e6c156;
+    background-image: url('https://i.stack.imgur.com/kx8MT.gif');
 
+}
 .container {
     max-width: 800px;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    
 }
+
 
 h1 {
     color: #333;
@@ -29,17 +35,17 @@ h1 {
 .question {
     font-size: 18px;
     margin-bottom: 10px;
+    width:500px;
 }
 
 .resetButton {
     position: fixed;
-    top: 0%;
-    left: 0%; 
-    padding: 20px;
+    top: 10px;
+    left: 10px;
 }
-
+  
 .title {
-    position: fixed;
+   position:fixed;
     width: 25%;
     top: 0%;
 }
@@ -53,7 +59,100 @@ ul.options li {
     margin-bottom: 10px;
 }
 
-label {
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+input[type="submit"] {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all 5s ease-in-out;
+    -o-transition: all 5s ease-in-out;
+    -webkit-transition: all 5s ease-in-out;
+    transition: all 5s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+
+a {
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 20px;
+    border-radius: .25rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+a:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+
+
+
+
+.options{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:15px;
+    width:400px;
+    margin:0 5px;
+}
+
+input[type="radio"]
+{
+    display:none;
+}
+
+label {    
+    width:225px;
+    height:50px;
+    text-align:center;
+    margin:0;
+    padding-top:12px;
     display: block;
     background-color: #f9f9f9;
     padding: 10px;
@@ -62,47 +161,42 @@ label {
     cursor: pointer;
 }
 
-input[type="radio"] {
-    display: none;
+label:hover{
+    background-color: #ffd24c;
 }
 
-input[type="radio"] + label {
-    position: relative;
+label:has(> input:checked){
+    background-color: #ffd24c;
 }
 
-input[type="radio"] + label::before {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #007BFF;
-    border-radius: 50%;
-    position: absolute;
-    top: 5px;
-    left: 5px;
+.rightLabel {
+    background-color: #f9f9f9;
+}
+.git-btn{
+    background-color: transparent;
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+}
+/* Add styles for the GitHub icon */
+.github-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    text-decoration: none;
 }
 
-input[type="radio"]:checked + label::before {
-    background-color: #007BFF;
-    border: none;
-    content: "✓"; /* Display a checkmark */
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
+.github-icon img {
+    width: 50px; /* Adjust the width and height as needed */
+    height: 50px;
+}
+._1kDr3_UHgHl96VVs-_Zt65.SVGInline > .SVGInline-svg {
+    font-size: 230%;
 }
 
-input[type="submit"] {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-    transition: background-color 0.2s;
-}
-
-input[type="submit"]:hover {
-    background-color: #0056b3;
+a > .SVGInline > .SVGInline-svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: text-bottom;
 }

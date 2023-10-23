@@ -6,7 +6,7 @@ This project is a history-based trivia game built using Python and Flask. It all
 
 The History Trivia Game is hosted on a live server. You can play the game by visiting the following URL:
 the link has to be updated. doesn't work as of now.
-[History Trivia Game Live Demo](https://history-trivia-game.herokuapp.com/)
+[History Trivia Game Live Demo](https://cpsc8710.onrender.com/)
 
 ## Features
 
