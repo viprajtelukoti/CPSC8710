@@ -43,3 +43,17 @@ header {
 .start-button:hover {
     background-color: #27ae60;
 }
+
+/* Add styles for the GitHub icon */
+.github-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    text-decoration: none;
+}
+
+.github-icon img {
+    width: 50px; /* Adjust the width and height as needed */
+    height: 50px;
+}

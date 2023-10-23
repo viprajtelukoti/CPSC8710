@@ -10,6 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-image: url('https://i.stack.imgur.com/kx8MT.gif');
     background-color: #e6c156;
 }
 
@@ -88,4 +89,33 @@ input[type="submit"]:hover {
     color: #fff;
     background-color: #0b5ed7;
     border-color: #0a58ca;
+}
+
+.git-btn{
+    background-color: transparent;
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+}
+/* Add styles for the GitHub icon */
+.github-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    text-decoration: none;
+}
+
+.github-icon img {
+    width: 50px; /* Adjust the width and height as needed */
+    height: 50px;
+}
+._1kDr3_UHgHl96VVs-_Zt65.SVGInline > .SVGInline-svg {
+    font-size: 230%;
+}
+
+a > .SVGInline > .SVGInline-svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: text-bottom;
 }
