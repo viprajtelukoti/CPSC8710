@@ -1,7 +1,7 @@
-### History-Based Trivia Project
+### Game Objective
 
 This project is a history-based trivia game built using Python and Flask. It allows users to test their knowledge of history by answering trivia questions.
-
+An engaging history-themed trivia game in which a single player assumes the role of the game master, while their teammates work together to guess the correct answers.
 ## Live Demo
 
 The History Trivia Game is hosted on a live server. You can play the game by visiting the following URL:
@@ -26,7 +26,7 @@ To get started with the trivia game, you will need to install the following depe
 * Python 3
 * Flask
 
-Once you have installed the dependencies, you can clone the project repository and run the following command to start the development server:
+Once you have installed the dependencies, you can clone the project repository and run the following command to start the development server: python main.py
 
 ## Developers
 
