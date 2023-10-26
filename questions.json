@@ -49,11 +49,6 @@
         "options": ["Cairo", "Luxor", "Alexandria", "Giza"],
         "answer": "Giza"
     },
-    {
-        "question": "What is the capital of Australia?",
-        "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-        "answer": "Canberra"
-    },
         {
         "question": "Who wrote the play Romeo and Juliet?",
         "options": ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"],
