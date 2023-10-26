@@ -1,11 +1,13 @@
 ### Game Objective
 
-This project is a history-based trivia game built using Python and Flask. It allows users to test their knowledge of history by answering trivia questions.
-An engaging history-themed trivia game in which a single player assumes the role of the game master, while their teammates work together to guess the correct answers.
+An engaging history-themed trivia game in which a single player assumes the role of the game master, while their teammates work together to guess the correct answers. This project is a history-based trivia game built using Python and Flask. It allows users to test their knowledge of history by answering trivia questions.
+
+### Rules
+
+The rules of the game are really simple. The player has to select the number of questions they want to play with and start answering those questions.
 ## Live Demo
 
 The History Trivia Game is hosted on a live server. You can play the game by visiting the following URL:
-the link has to be updated. doesn't work as of now.
 [History Trivia Game Live Demo](https://cpsc8710.onrender.com/)
 
 ## Features
