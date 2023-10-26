@@ -1,8 +1,8 @@
-### Game Objective
+## Game Objective
 
 An engaging history-themed trivia game in which a single player assumes the role of the game master, while their teammates work together to guess the correct answers. This project is a history-based trivia game built using Python and Flask. It allows users to test their knowledge of history by answering trivia questions.
 
-### Rules
+## Rules
 
 The rules of the game are really simple. The player has to select the number of questions they want to play with and start answering those questions.
 ## Live Demo
