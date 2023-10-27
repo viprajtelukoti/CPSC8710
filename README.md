@@ -20,6 +20,7 @@ The History Trivia Game is hosted on a live server. You can play the game by vis
 - **Python:** The backend of the application is powered by Python.
 - **Flask:** Flask is used as the web framework to handle routing and requests.
 - **HTML/CSS:** The frontend is built using HTML and CSS for a user-friendly interface.
+- **JavaScript:** Used it for confetti effect.
 
 ## Getting Started
 
