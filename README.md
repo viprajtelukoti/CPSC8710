@@ -1,4 +1,4 @@
-## Game Objective
+## Historle
 
 An engaging history-themed trivia game in which a single player assumes the role of the game master, while their teammates work together to guess the correct answers. This project is a history-based trivia game built using Python and Flask. It allows users to test their knowledge of history by answering trivia questions.
 
